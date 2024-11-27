@@ -82,5 +82,17 @@ $(()=>{
               ease: "elastic.out(2,0.2)",
           })
       })
-      
+      string.addEventListener("touchmove",function(e){
+        path=`M 10 100 Q ${e.x} ${e.y} 990 100`
+        gsap.to("svg path",{
+            attr:{d:path}
+        })
+        })
+        string.addEventListener("touchend",()=>{
+            gsap.to("svg path",{
+                attr:{d:finalPath},
+                duration:6,
+                ease: "elastic.out(2,0.2)",
+            })
+        })
 })

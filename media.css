@@ -1,0 +1,454 @@
+@media only screen and (max-width:578px) {
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  header {
+    justify-content: space-between;
+    
+   
+
+  }
+  
+  nav{
+    position: absolute;
+    top: 0%;
+    color: white;
+    background-color:#081b29;
+    left: 0;
+    width: 80%;
+    height: 100vh;
+    display: none;
+    box-shadow: 20px 20px 100px rgb(27, 25, 25);
+    transform: translateX(-50%);
+   transition: 5s;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+   
+  }
+  nav ul li{
+    margin-bottom: 20px;
+  }
+  .navBlock{
+    display: block;
+    
+    
+   
+  }
+  .nav-logo {
+    font-size: 1.5rem;
+  }
+
+  .MobileNav {
+    display: block;
+  }
+
+  .MobileNav button {
+    background-color: #081b29;
+    padding: 10px;
+    color: white;
+
+  }
+
+  section {
+    margin: 0;
+    padding: 0px 20px 0px 30px;
+  }
+
+  main {
+    flex-wrap: wrap;
+
+  }
+
+  .main-img-container {
+    flex-grow: 1;
+    justify-content: start;
+    align-items: start;
+    margin: auto;
+
+  }
+
+  .main-img {
+    margin-top: 3rem;
+  }
+
+  .main-img img {
+    width: 100%;
+  }
+
+  .main-icon-container {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: #081b29;
+    margin-left: -20px;
+    height: 100px;
+
+
+  }
+
+  .main-container-icon2 {
+    display: flex;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .main-icon-box {
+    padding-bottom: 10px;
+  }
+
+
+  .footer-contact,
+  .footer-name {
+    display: inline;
+  }
+
+  .footer-name {
+    font-size: 10px;
+  }
+
+  .footer-icon span {
+    width: 10px;
+    font-size: 10px;
+    height: 10px;
+  }
+
+  .footer-contact {
+    font-size: 8px;
+    padding-right: 20px;
+  }
+
+  .copyRight {
+    display: block;
+    font-size: 13px;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+  }
+
+  .main-icon {
+    font-size: 14px;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+  }
+
+  .main-title {
+    font-size: 2.3rem;
+  }
+
+  .main-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .main-objective {
+    font-size: 1rem;
+    text-align: justify;
+    margin-right: 15px;
+  }
+
+  .about-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 12fr;
+
+
+
+  }
+
+  .about-title {
+    text-align: justify;
+  }
+
+  .about-img img {
+    width: 100%;
+    height: 300px;
+    grid-column: 1/2;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+
+  }
+
+  .about-content {
+    grid-row: 2;
+
+  }
+
+  .skill-grid {
+
+    grid-template-columns: 12fr;
+    padding-right: 20px;
+  }
+
+  .skill-about img {
+    display: none;
+  }
+
+  .project-list {
+    grid-template-columns: 12fr;
+    padding-right: 20px;
+  }
+
+  .project-item img {
+    width: 100%;
+    height: 350px;
+    grid-row: 1;
+
+  }
+
+  .project-details {
+    grid-row: 2;
+    text-align: justify;
+
+  }
+
+  .contact-section {
+    height: 800px;
+  }
+
+  .contact-img {
+    display: none;
+  }
+
+  .contact-container {
+
+    grid-template-columns: 12fr;
+
+  }
+
+  .contact-heading,
+  .project-heading,
+  .skill-header {
+    text-align: center;
+    margin-left: -50px;
+  }
+}
+
+@media only screen and (orientation:portrait) {
+
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+
+  
+
+  header {
+    justify-content: space-between;
+    padding: 9px 13px 20px 13px;
+
+  }
+
+  .nav-logo {
+    font-size: 1.5rem;
+  }
+
+  .MobileNav {
+    display: block;
+  }
+
+  .MobileNav button {
+    background-color: #081b29;
+    padding: 10px;
+    color: white;
+
+  }
+
+  section {
+    margin: 0;
+    padding: 0px 20px 0px 30px;
+  }
+
+  main {
+    flex-wrap: wrap;
+
+  }
+
+  .main-img-container {
+    flex-grow: 1;
+    justify-content: start;
+    align-items: start;
+    margin: auto;
+
+  }
+
+  .main-img {
+    margin-top: 3rem;
+  }
+
+  .main-img img {
+    width: 100%;
+  }
+
+  .main-icon-container {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: #081b29;
+    margin-left: -20px;
+    height: 100px;
+    
+
+
+  }
+
+  .main-container-icon2 {
+    display: flex;
+    height: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .main-icon-box {
+    padding-bottom: 10px;
+  }
+
+
+  .footer-contact,
+  .footer-name {
+    display: inline;
+  }
+
+  .footer-name {
+    font-size: 10px;
+  }
+
+  .footer-icon span {
+    width: 10px;
+    font-size: 10px;
+    height: 10px;
+  }
+
+  .footer-contact {
+    font-size: 8px;
+    padding-right: 20px;
+  }
+
+  .copyRight {
+    display: block;
+    font-size: 13px;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+  }
+
+  .main-icon {
+    font-size: 14px;
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+  }
+
+  .main-title {
+    font-size: 2.3rem;
+  }
+
+  .main-subtitle {
+    font-size: 1.8rem;
+  }
+
+  .main-objective {
+    font-size: 1rem;
+    text-align: justify;
+    margin-right: 15px;
+  }
+
+  .about-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 12fr;
+
+
+
+  }
+
+  .about-title {
+    text-align: justify;
+  }
+
+  .about-img img {
+    width: 100%;
+    height: 300px;
+    grid-column: 1/2;
+    padding-bottom: 20px;
+    border-radius: 10px;
+
+
+  }
+
+  .about-content {
+    grid-row: 2;
+
+  }
+
+  .skill-grid {
+
+    grid-template-columns: 12fr;
+    padding-right: 20px;
+  }
+
+  .skill-about img {
+    display: none;
+  }
+
+  .project-list {
+    grid-template-columns: 12fr;
+    padding-right: 20px;
+  }
+
+  .project-item img {
+    width: 100%;
+    height: 350px;
+    grid-row: 1;
+
+  }
+
+  .project-details {
+    grid-row: 2;
+    text-align: justify;
+
+  }
+
+  .contact-section {
+    height: 800px;
+  }
+
+  .contact-img {
+    display: none;
+  }
+
+  .contact-container {
+
+    grid-template-columns: 12fr;
+
+  }
+
+  .contact-heading,
+  .project-heading,
+  .skill-header {
+    text-align: center;
+    margin-left: -50px;
+  }
+  footer{
+    
+    display: none
+   
+  }
+  
+}

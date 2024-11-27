@@ -60,4 +60,10 @@ $(()=>{
          $(".link-item1").removeClass("active-link")
          
       })
+
+      $(document).on("click",".close",()=>{
+        $(".navBar").css("transform","translateX(-103%)")
+      })
+
+     
 })

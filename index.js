@@ -1,3 +1,4 @@
+
 $(()=>{
    
     if ($(".main-subtitle-type").length == 1) {
@@ -65,5 +66,21 @@ $(()=>{
         $(".navBar").css("transform","translateX(-103%)")
       })
 
-     
+      var path=`M 10 100 Q 500 100 990 100`;
+      var finalPath=`M 10 100 Q 500 100 990 100`;
+      let string=document.getElementById("string");
+      string.addEventListener("mousemove",function(e){
+      path=`M 10 100 Q ${e.x} ${e.y} 990 100`
+      gsap.to("svg path",{
+          attr:{d:path}
+      })
+      })
+      string.addEventListener("mouseleave",()=>{
+          gsap.to("svg path",{
+              attr:{d:finalPath},
+              duration:6,
+              ease: "elastic.out(2,0.2)",
+          })
+      })
+      
 })

@@ -454,9 +454,16 @@
     margin-left: -50px;
   }
   footer{
-    
+
     display: none
    
   }
   
+  #string{
+    height: 50px;
+  
+  }
+  svg{
+    margin-bottom: 100px;
+  }
 }

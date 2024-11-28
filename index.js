@@ -99,4 +99,7 @@ $(()=>{
         $(document).on("click","#LetsTalk",()=>{
           location.href="https://wa.me/7978707118"
         })
+        $(document).on("touchstart","#LetsTalk",()=>{
+          location.href="https://wa.me/7978707118"
+        })
 })

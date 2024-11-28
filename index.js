@@ -95,4 +95,8 @@ $(()=>{
                 ease: "elastic.out(2,0.2)",
             })
         })
+
+        $(document).on("click","#LetsTalk",()=>{
+          location.href="https://wa.me/7978707118"
+        })
 })

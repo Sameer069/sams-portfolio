@@ -4,6 +4,9 @@
     --font-size:"Poppins",sans-serif;
     --primary-color: #00abf0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: "Poppins",sans-serif;

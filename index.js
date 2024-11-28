@@ -1,20 +1,15 @@
 
 $(()=>{
-   
-    if ($(".main-subtitle-type").length == 1) {
 
-        var typed_strings =
-          $(".main-subtitle-type").text();
-  
-        var typed = new Typed(".main-subtitle-type", {
-          strings: typed_strings.split(", "),
-          typeSpeed: 100,
-          loop: true,
-          backDelay: 800,
-          backSpeed: 200,
-          showCursor: false
-        });
-      }
+  var typed = new Typed(".main-subtitle-type", {
+    strings:["Developer","Designer"],
+    typeSpeed: 100,
+    loop: true,
+    backDelay: 800,
+    backSpeed: 200,
+    showCursor: false
+  });
+   
 
       $("#NavBtn").on("click",()=>{
        $(".navBar").toggleClass("navBlock")
@@ -102,4 +97,5 @@ $(()=>{
         $(document).on("touchstart","#LetsTalk",()=>{
           location.href="https://wa.me/7978707118"
         })
+       
 })

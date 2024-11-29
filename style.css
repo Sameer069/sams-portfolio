@@ -153,7 +153,7 @@ svg{
 }
 .mainBtnConatiner button:nth-child(1):hover::after{
      color: var(--primary-color);
-     transform: translate(100px);
+     transform: translate(100%);
 }
 .mainBtnConatiner button:nth-child(2){
     color: var(--primary-color);

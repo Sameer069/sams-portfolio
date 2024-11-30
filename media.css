@@ -38,8 +38,11 @@
   }
 
   main {
-    flex-wrap: wrap;
+  grid-template-columns: 12fr;
 
+  }
+  .box{
+    left: 30px;
   }
 
   .main-img-container {
@@ -540,6 +543,9 @@
     outline: none;
     border: none;
 
+  }
+  .box{
+    left: 50%;
   }
   .main-title{
     font-size: 5rem;

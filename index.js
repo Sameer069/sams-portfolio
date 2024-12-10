@@ -95,7 +95,7 @@ $(()=>{
         })
 
         $(document).on("click","#LetsTalk",()=>{
-          location.href="https://wa.me/7978707118"
+          location.href="MyResume.pdf"
         })
         $(document).on("touchstart","#LetsTalk",()=>{
           location.href="https://wa.me/7978707118"

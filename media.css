@@ -243,7 +243,6 @@
    
 
   }
-  
   nav{
     position: absolute;
     top: 0%;
@@ -279,11 +278,13 @@
 
   }
   .nav-logo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    margin-left: 15px;
   }
 
   .MobileNav {
     display: block;
+   
   }
 
   .MobileNav button {
@@ -292,7 +293,8 @@
     color: white;
     outline: none;
     border: none;
-
+    font-size: 1.5rem;
+    margin-right: 15px;
   }
 
   section {
@@ -304,6 +306,15 @@
     flex-wrap: wrap;
 
   }
+  #VideoBackGround video{
+    width:100%;
+    z-index: -100;
+    opacity: 0.3;
+    height: 600px;
+    object-fit: cover;
+  
+    
+}
 
   .main-img-container {
     flex-grow: 1;
@@ -328,7 +339,7 @@
     text-align: center;
     bottom: 0;
     background-color: #081b29;
-    margin-left: -20px;
+    margin-left: -30px;
     height: 100px;
 
 
@@ -339,6 +350,7 @@
     height: 50%;
     justify-content: space-evenly;
     align-items: center;
+   
   }
 
   .main-icon-box {
@@ -430,7 +442,10 @@
     grid-template-columns: 12fr;
     padding-right: 20px;
   }
-
+  .skill-header h1::after{
+    width: 100px;
+    
+  }
   .skill-about img {
     display: none;
   }
@@ -477,7 +492,7 @@
     margin-left: -50px;
   }
 }
-@media only screen and (min-width:600px) and (max-width:800px)
+@media only screen and (min-width:577px) and (max-width:768px)
 {
   
   header{
@@ -485,7 +500,7 @@
     padding-left: 38px;
     padding-right: 30px;
   }
-  nav{
+  .navBar{
     position: absolute;
     top: 0%;
     color: white;
@@ -496,8 +511,9 @@
     display: none;
     box-shadow: 20px 20px 100px rgb(37, 36, 36);
     transform: translateX(-50%);
-   transition: 2s;
+   
   }
+  
   .close{
     display: block;
     position: absolute;
@@ -526,6 +542,7 @@
   }
   .navBlock{
     display: block;
+    transition: 3s;
 
   }
   .nav-logo {

@@ -13,7 +13,7 @@ $(()=>{
 
       $("#NavBtn").on("click",()=>{
        $(".navBar").toggleClass("navBlock")
-       $(".navBar").css("transform","translateX(0%)")
+       $(".navBar").css({transform:"translateX(0%)"})
       
       })
       $(document).on("click",".link-item1",()=>{
@@ -22,6 +22,7 @@ $(()=>{
          $(".link-item3").removeClass("active-link")
          $(".link-item4").removeClass("active-link")
          $(".link-item5").removeClass("active-link")
+
          
       })
       $(document).on("click",".link-item2",()=>{
@@ -54,11 +55,13 @@ $(()=>{
          $(".link-item3").removeClass("active-link")
          $(".link-item4").removeClass("active-link")
          $(".link-item1").removeClass("active-link")
+        
+         
          
       })
 
       $(document).on("click",".close",()=>{
-        $(".navBar").css("transform","translateX(-103%)")
+        $(".navBar").css({transform:"translateX(-110%)"})
       })
 
       var path=`M 10 100 Q 500 100 990 100`;

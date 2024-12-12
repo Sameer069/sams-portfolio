@@ -406,6 +406,16 @@
     margin-right: 15px;
   }
 
+  /* animation add */
+  
+  .container{
+
+    animation: scroll  linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    
+
+}
   .about-grid {
     text-align: center;
     display: grid;
@@ -418,6 +428,8 @@
   .about-title {
     text-align: justify;
   }
+
+
 
   .about-img img {
     width: 100%;

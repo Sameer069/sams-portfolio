@@ -283,6 +283,23 @@ color: black;
     }
     
 }
+
+@keyframes scroll {
+    from{
+        opacity: 0.4;
+       
+        scale: 0.2;
+        
+       
+    }
+    to{
+       
+        opacity: 1.5;
+        scale: 1;
+        
+    }
+    
+}
 /* About section */
 
 .about-section{
@@ -295,7 +312,18 @@ color: black;
     text-align: center;
     color: #00abf0;
    margin-top: 90px;  
+   animation: scroll  linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 50%;
    
+}
+.about-grid,.skill-section,.myProject-conatiner,.contact-section,footer{
+
+    animation: scroll  linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+    transition: 0.4ms;
+
 }
 h1{
     position: relative;
@@ -804,28 +832,5 @@ footer::after{
     
      background-size: 100% 100%;
  }
- .water h2{
-     position: absolute;
-     top: 30%;
-     left: 10%;
-     font-size: 6rem;
- }
- .water h2:nth-child(1){
-     color: transparent;
-     -webkit-text-stroke: 2px rgb(10, 159, 218) ;
- }
- .water h2:nth-child(2){
-     color:rgb(10, 159, 218);
-     animation: text 4s ease-in-out infinite;
-     transition: 4s;
- }
-
- @keyframes text {
-     0%,100%{
-         clip-path: polygon(1% 155%, 16% 59%, 29% 63%, 41% 63%, 50% 63%, 59% 60%, 68% 59%, 79% 60%, 87% 56%, 96% 53%, 96% 53%, 99% 99%, 0% 99%, 1% 43%, 0% 41%, 18% 59%, 23% 58%, 11% 58%);
-     }
-     50%{
-         clip-path: polygon(199% 39%, 90% 41%, 80% 46%, 70% 50%, 61% 53%, 53% 58%, 43% 59%, 33% 61%, 26% 60%, 16% 61%, 8% 61%, 1% 58%, 1% 100%, 99% 99%);
-     }
- }
+ 
   

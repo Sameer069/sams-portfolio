@@ -100,5 +100,8 @@ $(()=>{
         $(document).on("touchstart","#LetsTalk",()=>{
           location.href="https://wa.me/7978707118"
         })
+        $(document).on("click","#weatherCheck",()=>{
+          location.href="https://sameer069.github.io/weatherCheck/"
+        })
        
 })

@@ -532,6 +532,9 @@ h1{
     border-radius: 10px;
     
 }
+#weatherCheck{
+    cursor: pointer;
+}
 .project-details{
     color: white;
 }

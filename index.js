@@ -13,7 +13,7 @@ $(()=>{
 
       $("#NavBtn").on("click",()=>{
        $(".navBar").toggleClass("navBlock")
-       $(".navBar").css({transform:"translateX(0%)"})
+       $(".navBar").css({transform:"translateX(0%)",transition:"all 2s ease"})
       
       })
       $(document).on("click",".link-item1",()=>{
@@ -95,10 +95,10 @@ $(()=>{
         })
 
         $(document).on("click","#LetsTalk",()=>{
-          location.href="MyResume.pdf"
+          location.href="resume.pdf"
         })
         $(document).on("touchstart","#LetsTalk",()=>{
-          location.href="MyResume.pdf"
+          location.href="resume.pdf"
         })
         $(document).on("click","#weatherCheck",()=>{
           location.href="https://sameer069.github.io/weatherCheck/"

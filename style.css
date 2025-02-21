@@ -322,7 +322,7 @@ color: black;
     animation: scroll  linear;
     animation-timeline: view();
     animation-range: entry 0%;
-    transition: 0.4ms;
+    transition: 0.7ms;
 
 }
 h1{
@@ -562,6 +562,9 @@ h1{
 }
 #weatherCheck{
     cursor: pointer;
+}
+.mobileProjectBtn{
+    display: none;
 }
 .project-details{
     color: white;

@@ -103,5 +103,12 @@ $(()=>{
         $(document).on("click","#weatherCheck",()=>{
           location.href="https://sameer069.github.io/weatherCheck/"
         })
+        $(document).on("click","#TodoCheck",()=>{
+          location.href="https://sameer-07-todoapp.netlify.app"
+        })
+       
+        $(document).on("click",".demoBtn",(e)=>{
+          location.href=""
+        })
        
 })

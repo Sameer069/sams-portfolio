@@ -106,7 +106,10 @@ $(()=>{
         $(document).on("click","#TodoCheck",()=>{
           location.href="https://sameer-07-todoapp.netlify.app"
         })
-       
+        $(document).on("click","#videolibrary",()=>{
+          location.href="https://videohub-1-szeq.onrender.com"
+        })
+      
         $(document).on("click",".demoBtn",(e)=>{
           location.href=""
         })
